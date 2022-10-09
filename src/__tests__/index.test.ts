@@ -46,6 +46,11 @@ describe('Stack test suit with number', () => {
     stack.clear();
     expect(stack.length).toBe(0);
   });
+
+  it('should return null if the stack is empty', () => {
+    const stack = new Stack();
+    expect(stack.pop()).toBe(null);
+  });
 });
 
 describe('Stack test suit with string', () => {
@@ -93,6 +98,11 @@ describe('Stack test suit with string', () => {
     stack.push('bar');
     stack.clear();
     expect(stack.length).toBe(0);
+  });
+
+  it('should return null if the stack is empty', () => {
+    const stack = new Stack();
+    expect(stack.pop()).toBe(null);
   });
 });
 
@@ -142,6 +152,11 @@ describe('Stack test suit with boolean', () => {
     stack.clear();
     expect(stack.length).toBe(0);
   });
+
+  it('should return null if the stack is empty', () => {
+    const stack = new Stack();
+    expect(stack.pop()).toBe(null);
+  });
 });
 
 describe('Stack test suit with Buffer', () => {
@@ -189,5 +204,10 @@ describe('Stack test suit with Buffer', () => {
     stack.push(Buffer.from('bar'));
     stack.clear();
     expect(stack.length).toBe(0);
+  });
+
+  it('should return null if the stack is empty', () => {
+    const stack = new Stack();
+    expect(stack.pop()).toBe(null);
   });
 });

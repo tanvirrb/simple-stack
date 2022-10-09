@@ -15,6 +15,9 @@ export class Stack {
   }
 
   pop() {
+    if (this.isEmpty()) {
+      return null;
+    }
     return this.stack.pop();
   }
 
