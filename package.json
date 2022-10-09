@@ -2,6 +2,7 @@
   "name": "@tanvironair/simple-stack",
   "version": "1.0.0",
   "description": "Simple stack using JavaScript",
+  "homepage": "https://github.com/tanvirrb/simple-stack",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -22,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "later"
+    "url": "git@github.com:tanvirrb/simple-stack.git"
   },
   "keywords": [
     "stack",
