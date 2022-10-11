@@ -1,6 +1,6 @@
 import { StackType } from './@types';
 
-export class Stack {
+export default class Stack {
   stack: StackType[];
   constructor() {
     this.stack = [];
